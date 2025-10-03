@@ -1,5 +1,6 @@
 import torch
 import torch.nn as nn
+from model._modules import LayerNorm
 from torch.nn.init import xavier_uniform_
 
 class SequentialRecModel(nn.Module):
