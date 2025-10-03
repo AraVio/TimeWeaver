@@ -70,7 +70,7 @@ def parse_args():
     parser.add_argument("--gpu_id", default="0", type=str)
     parser.add_argument("--variance", default=5, type=float)
 
-    parser.add_argument("--model_type", default='tacorec', type=str)
+    parser.add_argument("--model_type", default='timeweaver', type=str)
     parser.add_argument("--max_seq_length", default=50, type=int)
     parser.add_argument("--hidden_size", default=64, type=int)
     parser.add_argument("--num_hidden_layers", default=1, type=int)
